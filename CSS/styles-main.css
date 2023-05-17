@@ -144,11 +144,11 @@ a {
 
 header {
   background-color: var(--clr-black-almost);
-  padding: 0 2rem;
+  padding: 0 2.25rem;
 }
 
 main {
-  padding: 0 2rem;
+  padding: 0 2.25rem;
   max-width: 85%;
 }
 
