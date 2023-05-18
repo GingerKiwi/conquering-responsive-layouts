@@ -74,6 +74,10 @@ border: 0;
   line-height: 2rem;
 }
 
+.max-width-80vw {
+  max-width: 80vw;
+}
+
 /* ------------------- */
 /* A11y: Accessibility */
 /* ------------------- */
