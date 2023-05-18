@@ -15,10 +15,14 @@
     <main>
       <h1>Day 02: Getting Familiar With Relative Units</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid
-        inventore quo illum, vel facere sequi officiis ex deserunt enim veniam
-        iusto at distinctio deleniti recusandae explicabo. Fugit, error
-        voluptatibus!
+        There's no challenge for day 02. The task is to become familiar with two of the relative css units - em and rem. A link to one of Kevin Powell's older YouTube videos and the associated codepen is given in today's lesson. I've embedded them below. Here's some takeaways on ems and rems when it's best to use each of them:
+        <ul class="list-style-bulletpoint line-height-2rem">
+            <li>Ems are units from print typography.</li>
+            <li>Child elements using ems inhert their basesize from their parent element.</li>
+            <li>Rems are known as "root ems" they get their sizing from the root of the webpage - the html</li>
+            <li>Because ems can compound on each other, rems are the best option for typography</li>
+            <li>However, because ems scale with their parent, they work really well when used as padding - especially for elements such as buttons and cards.</li>
+        </ul>
       </p>
       <h2>Video</h2>
       <iframe
@@ -30,6 +34,37 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
+      <h2>The Codepen</h2>
+      <p
+        class="codepen"
+        data-height="300"
+        data-default-tab="html,result"
+        data-slug-hash="RKdjXe"
+        data-user="kevinpowell"
+        style="
+          height: 300px;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid;
+          margin: 1em 0;
+          padding: 1em;
+        "
+      >
+        <span
+          >See the Pen
+          <a href="https://codepen.io/kevinpowell/pen/RKdjXe">
+            A look at some CSS units</a
+          >
+          by Kevin (<a href="https://codepen.io/kevinpowell">@kevinpowell</a>)
+          on <a href="https://codepen.io">CodePen</a>.</span
+        >
+      </p>
+      <script
+        async
+        src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+      ></script>
     </main>
   </body>
   <footer>

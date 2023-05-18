@@ -66,6 +66,14 @@ border: 0;
   font-style: italic;
 }
 
+.list-style-bulletpoint {
+  list-style: disc;
+}
+
+.line-height-2rem {
+  line-height: 2rem;
+}
+
 /* ------------------- */
 /* A11y: Accessibility */
 /* ------------------- */
