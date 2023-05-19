@@ -30,9 +30,9 @@
     <nav>
       <ul>
         <li><a href="Day01/index.html">Day 01</a></li>
-       <li><a href="Day02/index.html">Day 02</a></li>
-          <!--<li><a href="Day03/index.html">Day 03</a></li>
-        <li><a href="Day04/index.html">Day 04</a></li>
+        <li><a href="Day02/index.html">Day 02</a></li>
+        <li><a href="Day03/index.html">Day 03</a></li>
+          <!--<li><a href="Day04/index.html">Day 04</a></li>
         <li><a href="Day05/index.html">Day 05</a></li>
         <li><a href="Day06/index.html">Day 06</a></li>
         <li><a href="Day07/index.html">Day 07</a></li> -->
@@ -72,7 +72,7 @@
           on Pagecloud.</a
         >
       </p>
-      <h2 class="padding-bottom-2rem">The Challenges</h2>
+      <h2>The Challenges</h2>
       <h3><a href="Day01/index.html">Day 01 Challenge</a> </h3>
       <p>
         <ul>
@@ -121,14 +121,74 @@
         </pre>
         
       </p>
-      <h3><a href="Day02/index.html">Day 02 Getting Familiar With Relative Units</a> </h3>
-      <p>
+      <h3><a href="Day02/index.html">Day 02: Getting Familiar With Relative Units</a> </h3>
+      
         <ul>
           <li>1) Watch video on <a href="https://youtu.be/_-aDOAMmDHI" target="_blank">CSS em and rem Explained</a></li>
           <li>2) Watch video on <a href="https://youtu.be/pautqDqa54I" target="_blank">Why you shouldn't set font-sizes using em</a></li>
         </ul>
-      </p>
+      
       <p>As there were no challenges for today, I watched both videos and created a page for Day 02 with some notes about best practices for when to use rem and em. The page has both videos and the codepen embedded. To make the iframes for the videos responsive I added a utiltiy class of .max-width-80vw to both vidoes and styles-main.css</p>
+
+      <h3><a href="Day03/index.html">Day 03: Enter Max-Width</a> </h3>
+      <h4>Install PrismJS</h4>
+
+      <p>I went down the installing <a href="https://prismjs.com/">PrismJS</a>  rabbit hole today while thinking about how to share the work done in each day's challenge. I chose the
+      <a href="https://github.com/PrismJS/prism-themes/blob/master/themes/prism-holi-theme.css">holi theme for PrismJS</a> and did some custom css for the toolbar to better match this site's design.
+      </p>
+      <pre>
+        <code class="language-css">
+          
+:root {
+	--clr-blue-dark: #0c1a23;
+	--clr-black-almost: #0d161b;
+	--clr-white: #fff;
+	--clr-green-bright: #00ff0a;
+	--clr-green-medium: #2e932e;
+	--clr-green-light: #00c200;
+	--clr-grey-light: #dadcdd;
+}	
+
+div.code-toolbar {
+	display: grid;
+	grid-auto-flow: column;
+}
+
+/* div.code-toolbar .toolbar.toolbar {
+	display: flex;
+} */
+/* The 'containers' holding the buttons (or pills) themselves */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+	margin-right: unset; /* default: not set; there is no spacing */
+}
+
+/* Styling the buttons (or pills) */
+/* Feel free to style them separately if that's what you prefer */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+	background: var(--clr-green-medium);
+	color: var(--clr-grey-light);
+	padding: 0.5rem 1rem;
+	margin: 0.75rem;
+	border-radius: 5px;
+	border: var(--clr-black-almost) 1px solid;
+}
+
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+	background: unset;
+	color: unset;
+	border: var(--clr-white) 2px solid;
+}
+
+        </code>
+      </pre>
+      <h3>Day 03: Challenge 02</h3>
     </main>
     <footer class="flex">
       <nav class="nav-footer">

@@ -131,10 +131,15 @@ body {
 h2 {
   font-family: var(--ff-display);
   letter-spacing: 0.1rem;
+  padding-bottom: 2rem;
 }
 
 h3, h4, h5 {
   font-family: var(--ff-sans-heading);
+}
+
+h3 {
+  padding-bottom: 1.5rem;
 }
 
 p {
