@@ -6,7 +6,7 @@
     --clr-green-medium: #2e932e;
     --clr-green-light: #00c200;
     --clr-grey-light: #dadcdd;
-  
+
     /* font-sizes */
     --fs-900: 9.375rem;
     --fs-800: 6.25rem;
@@ -16,11 +16,13 @@
     --fs-400: 1.125rem;
     --fs-300: 1rem;
     --fs-200: 0.875rem;
-  
-    --ff-display: "Ubuntu", sans-serif;
+
+    /* font-families */
+
+    --ff-display: 'Luckiest Guy', cursive;
+    --ff-sans-heading: "Ubuntu", sans-serif;
     --ff-sans-normal: "Open Sans", sans-serif;
-  
-  }
+}
 
 footer{
 background-color: var(--clr-black-almost);
