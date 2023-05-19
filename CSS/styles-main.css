@@ -188,4 +188,5 @@ footer{
   background-color: var(--clr-black-almost);
   margin-top: auto;
   justify-content: center;
+  padding-top: 2rem;
 }
