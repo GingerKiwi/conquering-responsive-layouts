@@ -15,3 +15,10 @@ The early challenges aren't difficult, but they're important to do. One of the b
 So even if the challenge seems simple, go and do it! It won't take you long, and it'll reinforce what you're learning.
 
 As for submitting the challenges, once again, Discord is the best place to get feedback. There is no way to submit them directly to me. I'd love to be able to check them all, but with 10,000+ people taking this challenge, it's just not possible! Thanks for understanding 😊
+
+
+## Day 03
+
+### Install PrismJS
+
+https://github.com/PrismJS/prism-themes/blob/master/themes/prism-holi-theme.css

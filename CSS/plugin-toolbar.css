@@ -1,0 +1,53 @@
+/**
+ * Toolbar plugin overrides
+ * https://prismjs.com/plugins/toolbar
+ * This is the third-most popular plugin
+ * Used in conjunction with Show Language, Copy to Clipboard Button, and/or Download Button
+ */
+
+:root {
+	--clr-blue-dark: #0c1a23;
+	--clr-black-almost: #0d161b;
+	--clr-white: #fff;
+	--clr-green-bright: #00ff0a;
+	--clr-green-medium: #2e932e;
+	--clr-green-light: #00c200;
+	--clr-grey-light: #dadcdd;
+}	
+
+div.code-toolbar {
+	display: grid;
+	grid-auto-flow: column;
+}
+
+/* div.code-toolbar .toolbar.toolbar {
+	display: flex;
+} */
+/* The 'containers' holding the buttons (or pills) themselves */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item {
+	margin-right: unset; /* default: not set; there is no spacing */
+}
+
+/* Styling the buttons (or pills) */
+/* Feel free to style them separately if that's what you prefer */
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span {
+	background: var(--clr-green-medium);
+	color: var(--clr-grey-light);
+	padding: 0.5rem 1rem;
+	margin: 0.75rem;
+	border-radius: 5px;
+	border: var(--clr-black-almost) 1px solid;
+}
+
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > button:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > a:focus,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:hover,
+div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
+	background: unset;
+	color: unset;
+	border: var(--clr-white) 2px solid;
+}
