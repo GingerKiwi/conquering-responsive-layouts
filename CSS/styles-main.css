@@ -17,7 +17,8 @@
   --fs-300: 1rem;
   --fs-200: 0.875rem;
 
-  --ff-display: "Ubuntu", sans-serif;
+  --ff-display: 'Luckiest Guy', cursive;
+  --ff-sans-heading: "Ubuntu", sans-serif;
   --ff-sans-normal: "Open Sans", sans-serif;
 
 }
@@ -119,9 +120,23 @@ body {
   font-size: var(--fs-400);
 }
 
-h1, h2, h3, h4, h5 {
+.logo {
   font-family: var(--ff-display);
+  font-size: var(--fs-700);
+  padding: 1.5rem 0 0.5rem 0;
+  letter-spacing: 0.15rem;
+  
 }
+
+h2 {
+  font-family: var(--ff-display);
+  letter-spacing: 0.1rem;
+}
+
+h3, h4, h5 {
+  font-family: var(--ff-sans-heading);
+}
+
 p {
   line-height: 2rem;
 }
