@@ -188,7 +188,80 @@ div.code-toolbar > .toolbar.toolbar > .toolbar-item > span:focus {
 
         </code>
       </pre>
-      <h3>Day 03: Challenge 02</h3>
+      <h4>Day 03: Challenge 02</h4>
+      <p>
+      You can view the <a href="/Day03/day03-start/index.html">starting layout here.</a>
+      The goal is to limit the width of all the text, especially on larger screen sizes. Both the text in the dark background and light background must line up on the left. The dark background must stretch across 100% of the screen.</p>
+      <p>Kevin's Notes: You are allowed to modify anything I've provided, including the HTML.
+        Also, I provided a little more than intended in the CSS, but in the next challenge I'm providing you with nothing at all as a starting point, so a little extra help in this one won't hurt 😅.</p>
+        <h4>Starting Code</h4>
+        <pre>
+          <code class="language-css">
+            
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+  background: #23424a;
+  color: white;
+  padding: 50px 0;
+}
+
+.intro-content {
+  width: 50%;
+}
+
+          </code>
+        </pre>
+        <h4>My Solution</h4>
+        
+          <ul class="list-style-bulletpoint">
+            <li>Put the bottom section "more content" inside a section tag then styled the section</li>
+            <li>Set a max-width on the section tag to 750px</li>
+            <li>Set padding for both section and intro-content to "padding: 3rem 4rem; "</li>
+            <li>Changed the intro-content class to stretch 50% with a max-width of 375px. This is a max-width of 50% of 750px set for the text in the section tag</li>
+          </ul> 
+        <pre>
+          <code class="language-css">
+            
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+section {
+  padding: 3rem 4rem;
+  max-width: 750px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #23424a;
+  color: white;
+  padding: 3rem 4rem;
+}
+
+.intro-content {
+  width: 50%;
+  max-width: 375px;
+}
+
+          </code>
+        </pre>
     </main>
     <footer class="flex">
       <nav class="nav-footer">
