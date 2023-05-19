@@ -83,6 +83,8 @@
           <li>2) Stop the text from overflowing out the bottom at small screen widths</li>
           <li>You may modify the HTML if needed</li>
         </ul>
+        <h4>Day 01 Starter Code</h4>
+          
         <pre>
           <code class="language-css">
           .container {
@@ -93,9 +95,28 @@
             margin: 0 auto;
           
             padding: 2em;
-            /* height: 300px; */
+            height: 300px;
           }
           
+        </code>
+        </pre>
+        <h4>My Solution</h4>
+        <pre>
+          <code class="language-css">
+          .container {
+            background: #23424a;
+            color: white;
+          
+            width: 80%;
+            margin: 0 auto;
+          
+            padding: 2em;
+            /* deleting height: 300px 
+            stops text from overflowing on the bottom 
+            of the containter on smaller screens */
+          }
+          
+          /* limit content to 50% of the container */
           .intro-content {
             max-width: 50%;
           }
