@@ -8,4 +8,21 @@
 
     --fsize-regular: 1.3125rem;
     --fsize-large: 3rem;
+
+    --fweight-regular: 400;
+    --fweight-bold: 700;
+    --fweight-black: 900;
+}
+
+body {
+    margin: 0;
+    font-family: var(--ff-sans);
+}
+
+h1 {
+    font-family: var(--ff-sans);
+    font-size: var(--fsize-large);
+    font-weight: var(--fweight-black);
+    line-height: 1.2;
+    margin: 0;
 }
