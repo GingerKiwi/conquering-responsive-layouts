@@ -56,8 +56,9 @@ p {
     font-weight: var(--fweight-bold);
 }
 
+/* Added to provide spacing between today's challenge and the footer nav. Don't have time today to debug why the nav isn't sticking to the bottom like in other day's pages. */
 .section-spacing {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 
