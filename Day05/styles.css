@@ -1,0 +1,11 @@
+:root {
+    --ff-sans: "Roboto", sans-serif;
+
+    --clr-aqua-dark: #23424A;
+    --clr-aqua-medium: #136C72;
+    --clr-aqua-light: #38CFD9;
+    --clr-white: #FFFFFF;
+
+    --fsize-regular: 1.3125rem;
+    --fsize-large: 3rem;
+}
