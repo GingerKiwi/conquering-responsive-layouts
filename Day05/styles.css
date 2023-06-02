@@ -17,12 +17,47 @@
 body {
     margin: 0;
     font-family: var(--ff-sans);
+    color: var(--clr-white);
+}
+
+main {
+    max-width: 50%;
+    padding-bottom: 4rem;
+}
+
+.container {
+    
+    background-color: var(--clr-aqua-dark);
+    padding-left: 4rem;
+    padding-top: 4rem;
+    min-height: 50vh;
+
 }
 
 h1 {
     font-family: var(--ff-sans);
     font-size: var(--fsize-large);
     font-weight: var(--fweight-black);
+    /* color: var(--clr-white); */
     line-height: 1.2;
     margin: 0;
 }
+
+p {
+    padding: 1rem 0 2rem 0;
+}
+
+.btn {
+    background-color: var(--clr-aqua-light);
+    border-radius: 50px;
+    border-style: none;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+    font-weight: var(--fweight-bold);
+}
+
+.section-spacing {
+    padding: 4rem 0;
+}
+
+
